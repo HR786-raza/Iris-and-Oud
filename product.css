@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf5;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details {
+    flex: 1;
+}
+
+button {
+    padding: 0.8rem 1.2rem;
+    background-color: #4b2c2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

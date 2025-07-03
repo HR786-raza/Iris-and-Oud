@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f3eee8; padding: 2rem; }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-top: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #4b2c2c;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Checkout</h2>
+    <p><strong>Billing Information</strong></p>
+    <input type="text" placeholder="Full Name" />
+    <input type="text" placeholder="Billing Address" />
+    <input type="email" placeholder="Email Address" />
+    <input type="tel" placeholder="Phone Number" />
+    <select>
+      <option>Credit Card</option>
+      <option>PayPal</option>
+      <option>Bank Transfer</option>
+    </select>
+    <input type="text" placeholder="Card Number or PayPal Email" />
+    <input type="text" placeholder="Expiry Date (MM/YY)" />
+    <input type="text" placeholder="CVV" />
+    <button>Pay Now</button>
+  </div>
+</body>
+</html>

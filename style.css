@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fffaf5;
+    color: #333;
+}
+
+header {
+    background-color: #3b2d2f;
+    color: white;
+    padding: 10px 2rem;
+    text-align: center;
+    /* display: flex; */
+}
+footer {
+    background-color: #3b2d2f;
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.slider {
+    width: 100%;
+    max-width: 1500px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.slides {
+    display: flex;
+    height: 200%;
+    width: 300%;
+    animation: slide 20s infinite;
+}
+
+.slides img {
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    33% {
+        margin-left: -100%;
+    }
+
+    66% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
